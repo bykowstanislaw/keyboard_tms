@@ -1,0 +1,35 @@
+
+.spacer{
+    width:500px;
+}
+.space{
+    margin-bottom: 200px;
+}
+.container{
+    display: grid;
+    grid-template-columns:repeat(11,8%);
+}
+input{
+    text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 5px 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 40px lightgoldenrodyellow inset, 0 0 0 0 lightgoldenrodyellow;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: black;
+  transition: .15s ease-in-out;
+}
+input:hover {
+    box-shadow: 0 0 10px 0 lightgoldenrodyellow inset, 0 0 10px 4px lightgoldenrodyellow;
+    color: black;
+  }
+  .capson{
+    color: red;
+    font-size: 16px;
+}
+.shifton{
+color:green;
+font-size: 16px;}
